@@ -1,11 +1,11 @@
 import React from 'react';
 import './css/SchoolCard.css';
 
-function SchoolCard() {
+function SchoolCard(props) {
   return(
     <div className="col-4">
       <div className="card">
-        <h5 className="card-header">PASS SCHOOL NAME HERE</h5>
+        <h5 className="card-header" name= {props.data.ENTITY_NAME} >C E Walters School </h5>
         <div className="card-body">
           <h5 className="card-title">
             <span className="badge">2017-18</span>
